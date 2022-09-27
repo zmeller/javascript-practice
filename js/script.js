@@ -6,10 +6,12 @@ multi line*/
 console.log("Zachary Meller");
 console.log("My favorite food is Steak")
 
-console.log(2022);
 let text = "Supercalifragilisticexpialidocious";
-text.length
-console.log(text.length);
+console.log('The length of the text is : ', text.length);
 
-let a = 2;
-console.log(a);
+let myInt= 50;
+let myBigInt= 455456465n;
+console.log('my integer:', myInt);
+console.log('my big integer:', myBigInt);
+console.log('type of my integer : ', typeof myInt);
+console.log('my type of big int :', typeof myBigInt);
